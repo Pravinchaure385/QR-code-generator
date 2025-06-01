@@ -1,0 +1,52 @@
+body{
+    width: 100%;
+    height:100%;
+  background-image: url(resources/qa-bg.jpg);
+}
+.logo{
+    margin-top: 260px;
+}
+.input_part{
+    width: 600px;
+    height: 66px;
+    margin-left: 378px;
+
+}
+
+.url_input_part{
+    height: 100%;
+    width: 75%;
+    float: left;
+    font-size: 15px;
+}
+.url_input_part input{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    margin-left: 17px;
+}
+
+.url_input_part input::placeholder{
+    color: rgb(218, 217, 217);
+    font-weight:600;
+}
+
+.QR_code{
+    float:left;
+    height: 100%;
+    width: 20%;
+
+}
+.qrcode{
+    float: left;
+    height: 150px;
+    width: 150px;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 585px;
+    /* display: none; */
+}
+
+
